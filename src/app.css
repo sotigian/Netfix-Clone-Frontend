@@ -1,0 +1,10 @@
+:root {
+  
+  --main-color: #0b0b0b;
+  
+}
+/*# sourceMappingURL=app.css.map */
+.app.dark {
+  background-color: #222;
+  color: rgb(242, 220, 220);
+}

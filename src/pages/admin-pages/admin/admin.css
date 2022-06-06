@@ -1,0 +1,41 @@
+.admin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin .adminContainer {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+}
+
+.admin .adminContainer .widgets,
+.admin .adminContainer .charts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.admin .adminContainer .charts {
+  padding: 5px 20px;
+}
+
+.app.dark {
+  background-color: #222;
+  color: #f2dcdc;
+}
+
+.app.dark .datatable .datagrid {
+  color: gray;
+  border: none;
+}
+
+.app.dark .datatable .datagrid .viewButton,
+.app.dark .datatable .datagrid .deleteButton {
+  color: lightgray;
+  border: none;
+}
+/*# sourceMappingURL=admin.css.map */

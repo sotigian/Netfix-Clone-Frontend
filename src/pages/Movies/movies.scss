@@ -1,0 +1,52 @@
+main {
+  background-image: url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+  background-size: contain;
+  object-fit: contain;
+  .featured {
+    height: 20vh;
+  }
+
+}
+
+.album {
+  min-height: 63vh;
+
+
+
+  .card {
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    
+
+    .listItem {
+      // width: 400px;
+      height: 225px;
+      border-radius: 5px;
+      
+
+      img {
+        object-fit:cover;
+      }
+
+      &:hover {
+        width: 425px;
+        height: 425px;
+        left: -70px;
+        position: absolute;
+        .videosTrailer {
+        
+          height: 200px;
+          
+          }
+          
+          img {
+            height: 200px;
+          }
+        .itemInfo {
+          padding: 5px;
+        }
+      }
+      }
+  }
+}

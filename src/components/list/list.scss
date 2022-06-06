@@ -1,0 +1,52 @@
+.list {
+  width: 100%;
+  margin-top: 10px;
+
+  .listTitle {
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 50px;
+  }
+  .wrapper {
+    position: relative;
+    .sliderArrow {
+      width: 50px;
+      height: 100%;
+      background-color: rgb(136, 127, 127);
+      color: white;
+      position: absolute;
+      z-index: 99;
+      top: 0;
+      bottom: 0;
+      cursor: pointer;
+
+      &.left {
+        left: 0;
+        background-color: black;
+      }
+
+      &.right {
+        right: 0;
+      }
+    }
+    .container2 {
+      margin-left: 50px;
+      display: flex;
+      width: max-content;
+      margin-top: 15px;
+      transition: all 1s ease;
+      .listItem {
+        width: 225px;
+        height: 120px;
+        margin-right: 5px;
+      
+        &:hover {
+        
+          width: 325px;
+          height: 370px;
+        }
+      }
+    }
+  }
+}

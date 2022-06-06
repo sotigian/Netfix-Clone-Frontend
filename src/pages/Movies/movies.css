@@ -1,0 +1,50 @@
+main .featured {
+  height: 20vh;
+}
+
+.album {
+  min-height: 63vh;
+}
+
+.album .card {
+  background-color: white;
+  cursor: pointer;
+  color: white;
+}
+
+.album .card .listItem {
+  width: 400px;
+  height: 225px;
+}
+
+.album .card .listItem img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.album .card .listItem:hover {
+  width: 425px;
+  height: 425px;
+  left: -70px;
+  position: absolute;
+}
+
+.album .card .listItem:hover .itemInfo {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+
+.album .card .listItem:hover video {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+/*# sourceMappingURL=movies.css.map */

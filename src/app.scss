@@ -1,0 +1,26 @@
+:root {
+  --main-color: #0b0b0b;
+  overflow-x: hidden;
+.app.dark {
+  background-color: #222;
+  color: rgb(242, 220, 220);
+
+  .datatable {
+    .datagrid {
+      color: gray;
+      border: none;
+
+      .viewButton,
+      .deleteButton {
+        color: lightgray;
+        border: none;
+
+      }
+    }
+  }
+}
+}
+
+html {
+  scroll-behavior: auto !important;
+}

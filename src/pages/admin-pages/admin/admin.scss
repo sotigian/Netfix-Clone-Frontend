@@ -1,0 +1,42 @@
+.admin {
+    display: flex;
+
+    .adminContainer {
+        flex: 8;
+
+        .widgets,
+        .charts {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+
+
+        .charts {
+            padding: 5px 20px;
+        }
+    }
+}
+
+.app.dark {
+    background-color: #222;
+    color: rgb(242, 220, 220);
+
+
+
+
+    .datatable {
+        .datagrid {
+            color: gray;
+            border: none;
+
+
+            .viewButton,
+            .deleteButton {
+                color: lightgray;
+                border: none;
+
+            }
+        }
+    }
+}

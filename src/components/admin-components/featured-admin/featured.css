@@ -1,0 +1,100 @@
+.featuredAdmin {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  box-shadow: 2px -2px 36px -4px rgba(250, 231, 231, 0.53);
+  -webkit-box-shadow: 2px -2px 36px -4px rgba(218, 196, 196, 0.53);
+  -moz-box-shadow: 2px -2px 36px -4px rgba(215, 191, 191, 0.53);
+  padding: 10px;
+}
+
+.featuredAdmin .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: gray;
+}
+
+.featuredAdmin .top .title {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.featuredAdmin .bottom {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 15px;
+}
+
+.featuredAdmin .bottom .featuredChart {
+  width: 100px;
+  height: 100px;
+}
+
+.featuredAdmin .bottom .title {
+  font-weight: 500;
+  color: gray;
+}
+
+.featuredAdmin .bottom .amount {
+  font-size: 28px;
+}
+
+.featuredAdmin .bottom .desc {
+  font-weight: 300;
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+
+.featuredAdmin .bottom .summary {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.featuredAdmin .bottom .summary .item {
+  text-align: center;
+}
+
+.featuredAdmin .bottom .summary .item .itemTitle {
+  font-size: 14px;
+  color: gray;
+}
+
+.featuredAdmin .bottom .summary .item .itemResult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=featured.css.map */

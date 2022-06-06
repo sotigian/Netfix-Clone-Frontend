@@ -1,0 +1,137 @@
+.single {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.single .singleContainer {
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+.single .singleContainer .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+
+.single .singleContainer .top .left {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  box-shadow: 2px -2px 36px -4px rgba(223, 211, 211, 0.53);
+  -webkit-box-shadow: 2px -2px 36px -4px rgba(224, 207, 207, 0.53);
+  -moz-box-shadow: 2px -2px 36px -4px rgba(225, 206, 206, 0.53);
+  position: relative;
+  padding: 20px;
+}
+
+.single .singleContainer .top .left .editButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  font-size: 20px;
+  color: #e28585;
+  background-color: #6f6666;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.single .singleContainer .top .left .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.single .singleContainer .top .left .item .itemImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 20px;
+}
+
+.single .singleContainer .top .left .item .details .itemTitle {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.single .singleContainer .top .left .item .details .detailItem {
+  margin-bottom: 10px;
+  font-style: 16px;
+}
+
+.single .singleContainer .top .left .item .details .detailItem .itemKey {
+  font-weight: bold;
+  color: gray;
+}
+
+.single .singleContainer .top .right {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.title {
+  color: lightgray;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.userDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.userDetails .membersince {
+  padding: 10px;
+  height: 275px;
+  width: 300px;
+  font-size: 20px;
+  color: gray;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+  box-shadow: 2px -2px 36px -4px rgba(220, 207, 207, 0.53);
+  -webkit-box-shadow: 2px -2px 36px -4px rgba(225, 206, 206, 0.53);
+  -moz-box-shadow: 2px -2px 36px -4px rgba(225, 206, 206, 0.53);
+}
+
+.userDetails .membersince .memberDate {
+  font-size: 28px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: red;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  border-bottom: 1px solid gray;
+}
+
+.userDetails .membersince .memberTime {
+  font-size: 25px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: violet;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+/*# sourceMappingURL=single.css.map */

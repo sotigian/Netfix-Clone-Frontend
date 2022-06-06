@@ -1,0 +1,9 @@
+.home {
+  background-color: var(--main-color);
+  overflow: hidden;
+}
+
+.featured {
+  height: 90vh;
+}
+/*# sourceMappingURL=home.css.map */

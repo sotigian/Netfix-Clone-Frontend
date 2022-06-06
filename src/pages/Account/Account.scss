@@ -1,0 +1,186 @@
+.account-page {
+    box-sizing: border-box;
+    background: black;
+    
+
+.navbar2 {
+    background: black;
+}
+.main-content {
+    min-height: 100vh;
+    padding-top: 120px;
+}
+
+p {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+
+.account-info {
+    max-width: 60%;
+    margin: 0 auto;
+    color: white;
+    // margin-top: 80px;
+
+    border-bottom: 1px solid black;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    .account-title {
+        margin-right: 10px;
+    }
+
+}
+
+.membership-billing-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    max-width: 60%;
+    margin: 0 auto;
+    // padding-top: 80px;
+
+    .left-section {
+        width: 25%;
+        height: 100%;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+
+        .membership-billing-info {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .cancellation {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .membership-billing-title {
+            color: gray;
+            margin-bottom: 5px;
+        }
+        .cancel-membership {
+             width: 180px;
+             min-width: 100px;
+             height: 40px;
+             max-height: 100px;
+            border: gray;
+            border-radius: 5px;
+            
+            
+        }
+
+        .cancel-membership:hover {
+            background-color: red;
+            color: white;
+            
+        }
+
+
+    }
+
+    .right-section {
+        border-bottom: 1px solid gray;
+        width: 75%;
+        height: 90px;
+        padding-top: 10px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        
+
+        .email-info {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        
+        }
+
+        .user-email {
+            display: flex;
+            margin-bottom: 0px;
+        }
+
+        .password-info {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          
+        }
+
+        .card-info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-items: baseline;
+            justify-content: space-between;
+            padding-top: 10px;
+        }
+
+        
+
+        .user-card-info {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            align-items: baseline;
+            padding-top: 15px;
+        }
+
+        .user-card {
+            width: 30px;
+            
+        }
+        .user-card-number {
+            margin-left: 10px;
+        }
+
+        .billing-expire-date-details {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-bottom: 1px solid gray;
+        }
+        
+        
+    }
+
+
+}
+
+.plan-info {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 90px;
+    padding-top: 10px;
+
+    .plan-details {
+        width: 25%;
+    }
+
+    .right-content {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+}
+

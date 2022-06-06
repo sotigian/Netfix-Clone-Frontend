@@ -1,0 +1,140 @@
+.register {
+  // display: flex;
+  // flex-direction: column;
+  width: 100vw;
+  height: 110vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+  background-size: cover;
+  overflow-y: hidden;
+  // position: relative;
+
+  // .top {
+  //   .wrapper {
+  //     padding: 20px 50px;
+  //     display: flex;
+  //     align-items: center;
+
+  //     .logo {
+  //       height: 50px;
+  //     }
+  //     a {
+  //       position: relative;
+  //       right: -95%;
+  //       top: 50px;
+  //       background-color: red;
+  //       padding: 5px 15px;
+  //       font-size: 16px;
+  //       border-radius: 5px;
+  //       font-weight: 500;
+  //       text-decoration: none;
+  //       color:white;
+  //     }
+  //   }
+  // }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    // position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    // margin-left: 220px;
+
+    h1 {
+      font-size: 50px;
+      color: white;
+      margin-left: 0;
+    }
+    h2 {
+      margin: 15px;
+    }
+    p {
+      font-size: 20px;
+    }
+    .input {
+      width: 50%;
+      height: 50px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      border-radius: 5px;
+
+      input {
+        width: 80%;
+        height: 100%;
+        padding: 0 10px;
+      }
+      .registerButton {
+        width: 20%;
+        height: 100%;
+        background-color: red;
+        color: white;
+        font-size: 20px;
+      }
+    }
+    form {
+      width: 400px;
+      min-height: 400px;
+      padding: 30px;
+      border-radius: 5px;
+      background-color: var(--main-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    
+      // margin-left: 350px;
+      .alert2 {
+        margin: 10px 2px;
+        padding: 10px;
+        width: 100%;
+        background-color: white;
+        color : rgb(216, 20, 20);
+      }
+
+    
+      .banner {
+        font-size: 30px;
+        display: flex;
+      }
+    
+      input {
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: gray;
+        color: white;
+        padding-left: 10px;
+    
+        &::placeholder {
+          color: lightgray;
+        }
+      }
+    
+      button {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    
+      small {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 110vh;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg");
+  background-size: cover;
+  position: relative;
+
+  // .top {
+  //   .wrapper {
+  //     padding: 20px 50px;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: space-between;
+
+  //     .logo {
+  //       height: 40px;
+  //     }
+  //   }
+  // }
+
+  
+
+  .container-main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    form {
+      width: 400px;
+      min-height: 400px;
+      padding: 30px;
+      border-radius: 5px;
+      background-color: var(--main-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      // margin-left: 350px;
+      .alert2 {
+        margin: 10px 2px;
+        padding: 10px;
+        width: 100%;
+        background-color: white;
+        color : rgb(216, 20, 20);
+      }
+
+
+      input {
+        height: 40px;
+        width: 100%;
+        border-radius: 5px;
+        background-color: gray;
+        color: white;
+        padding-left: 10px;
+
+        &::placeholder {
+          color: lightgray;
+        }
+      }
+
+      button {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        background-color: red;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+      small {
+        width: 100%;
+      }
+
+      span {
+        color: lightgray;
+        :link {
+          text-decoration: none;
+          color: lightgray;
+        }
+        b {
+          cursor: pointer;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+
+
+

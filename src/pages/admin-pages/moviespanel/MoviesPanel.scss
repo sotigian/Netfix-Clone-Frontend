@@ -1,0 +1,19 @@
+.listAdmin {
+    display: flex;
+    width: 100%;
+
+    .listAdminContainer {
+        flex: 6;
+    }
+    .addMovieButton {
+        width: 180px;
+        height: 60px;
+        padding: 10px;
+        border: none;
+        background-color: black;
+        color: rgb(205, 63, 63);
+        font-weight: bold;
+        margin-left: 20px;
+        border-radius: 5px;
+    }
+}

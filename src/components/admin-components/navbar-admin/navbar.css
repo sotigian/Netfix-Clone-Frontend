@@ -1,0 +1,70 @@
+.navbar {
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 24px;
+  color: #f3bebe;
+}
+
+.navbar .wrapper {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar .wrapper .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.5px solid #e4d5d5;
+  padding: 1px;
+}
+
+.navbar .wrapper .search input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.navbar .wrapper .items {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .wrapper .items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+}
+
+.navbar .wrapper .items .item .icon {
+  font-size: 30px;
+}
+
+.navbar .wrapper .items .avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=navbar.css.map */
